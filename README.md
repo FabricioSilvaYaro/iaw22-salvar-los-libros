@@ -9,10 +9,10 @@
     - _Lucida Sans_
 
 - Color principal:
-    - _Cyan_
+    - _Black_
 
 - Color secundario:
-    - _Black_
+    - _Cyan_
 
 - Color de alerta:
     - _Green_
