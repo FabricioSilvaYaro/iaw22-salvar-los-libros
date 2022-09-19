@@ -2,7 +2,7 @@
 
 ### **Estilos**:
 
-- Tipo de letra titulos:
+- Tipo de letra títulos:
     - _Courier New_
 
 - Tipo de letra párrafos:
