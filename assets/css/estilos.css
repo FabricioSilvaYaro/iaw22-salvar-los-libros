@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+footer{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+table{
+    margin:0 auto;
+    width: 80%;
+    
+}
+table, th, td{
+    background-color: goldenrod;
+    border:0 0;
+    margin-bottom: 30px;
+}
+td{
+    width: fit-content;
+    text-align:justify;
+}
+th{
+    color:magenta;
+    font-size: 20px;
+    height: 50px;
+}
+.tcuerpo td{
+    background-color: coral;
+}
+#contenedor{
+    height:100% ;
+    width:80%;
+    background-color: bisque;
+    margin-left: 10%;
+    min-width: 60%;
+}
+#menu{
+    background-color:peru;
+    height:10em;
+    width: 100%;
+    font-size: 1em;
+    min-width: 60%;
+}
+#cuerpo{
+    clear:both;
+    height:60% ;
+    width: 100%;
+    min-width: 60%;
+    text-align: center justify;
+}
+#encabezado {
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+#encabezado #left{
+    float:left;
+    width: 40%;
+    background-color: yellowgreen;
+}
+#encabezado #right{
+    float:left;
+    width: 58.6%;
+    background-color:  yellowgreen;
+}
+#encabezado img{
+    width:15.93em;
+    border-radius: 20em;
+}
+
+#pie{
+    margin-left: 10%;
+    width: 80%;
+    height: 5em;
+    min-width: 60%;
+    background-color: yellowgreen;
+    text-align: center;
+    
+}
+#pie div{
+    float:left;
+    font-size: 1.5em;
+    height:2em;
+    width: 40%;
+    margin-top: 0.8em;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: aliceblue;
+}
+.navegacion{
+    font-size: 1.5em;
+    float:left;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 1.5em;
+    padding-top: 10px;
+    width:calc(70% / 3);
+    border-color: black 1px solid;
+    height: 3.6em;
+    background-color: yellow;
+    text-align: center;
+}
+#actual{
+    background-color: aqua;
+}
+table img{
+    width: 350px;
+}
+.dfimg{
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+    display: block;
+    margin:auto;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Courier New';
+    background-color: crimson;
+    width: fit-content;
+}
+h1{
+    margin-left: 10%;
+    font-size: 5em;
+}
+h2{
+    color: cyan;
+    font-size: 3em;
+}
+p{
+    font-family: 'Lucida Sans';
+    color: black;
+}
+#pie img{
+    width: 40px;
+}
+.fecha, .click{
+    text-align: right;
+    color:rebeccapurple
+}
+.click{
+    border:1px rebeccapurple solid;
+}
