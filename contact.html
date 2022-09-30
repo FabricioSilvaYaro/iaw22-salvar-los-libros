@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Salvemos a los libros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="menu">
+            <div class="navegacion"><p><strong><a href="./index.html">Salvemos a los libros</a></strong></p></div>
+            <div class="navegacion"><p><strong><a href="./events.html">Eventos</a></strong></p></div>
+            <div class="navegacion" id="actual"><p><a href="./contact.html"><strong>Página de contactos</a></strong></p></div>
+            <div class="navegacion"><p><strong><a href="./register.html">Registrarse</a></strong></p></div>
+        </div>  
+        <div id="cuerpo">
+            <div id="encabezado">
+                <div id="left"><img src="./assets/img/contactus.jpg" width="400px"></div>
+                <div id="right">
+                    <h2>Contáctanos</h2>
+                    <h3>Salvemos a los libros</h3>
+                </div>
+            </div>
+            <form name="formulario de Contacto" action="mailto:Fabricio_extremosc@hotmail.com" method="post" enctype="text/plain">
+				<fieldset width="80%">
+					<legend>Contacto</legend>
+					<p>Email</p>
+                    <div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2926.2996680191936!2d-1.6620626848578062!3d42.8242833791585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5092855cefdac7%3A0xab7c62765f5209e2!2sCuatrovientos%20Centro%20Integrado!5e0!3m2!1ses!2ses!4v1664533673357!5m2!1ses!2ses" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+					<input type="text" name="email" size="30px">
+					<p>Actividades</p>
+					<p><input type="checkbox" name="actividades" value="donar"> Quiero donar un libro que ya no uso</p>
+					<p><input type="checkbox" name="actividades" value="obtener"> Quiero obtener un libro</p>
+					<p>Valoración en general</p>
+                    
+					<select name="Valoracion">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+                        <option value="5">5</option>
+					</select>
+					<p>Comentario</p>
+					<textarea name="Comentario" cols="50" rows="7" placeholder="Introduce un comentario"></textarea>
+                </fieldset>
+                <input id="enviar" type="submit"><input id="cancelar" type="reset">
+			</form>
+        </div>
+    <footer>
+        <div id="pie">
+            <div><a href="./librito.html"><img src="./assets/img/librito.jpg"></a></div>
+            <div><p><a href="./contact.html">volver</a></p></div>
+        </div>
+    </div>
+</body>
+</html>
