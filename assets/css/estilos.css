@@ -63,16 +63,19 @@ th{
 #encabezado #left{
     float:left;
     width: 40%;
+    height:11em;
     background-color: yellowgreen;
 }
 #encabezado #right{
     float:left;
     width: 58.6%;
+    height:11em;
     background-color:  yellowgreen;
 }
 #encabezado img{
-    width:15.93em;
     border-radius: 20em;
+    display:block;
+    margin: 1em auto
 }
 
 #pie{
@@ -97,11 +100,11 @@ th{
 .navegacion{
     font-size: 1.5em;
     float:left;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:2%;
+    margin-right:2%;
     margin-top: 1.5em;
     padding-top: 10px;
-    width:calc(70% / 3);
+    width:calc(70% / 3.35);
     border-color: black 1px solid;
     height: 3.6em;
     background-color: yellow;
@@ -147,4 +150,27 @@ p{
 }
 .click{
     border:1px rebeccapurple solid;
+}
+fieldset{
+    bottom: 3em;
+    width: 80%;
+    margin:0 auto;
+}
+#enviar{
+    margin-left: 10em;
+    margin-right: 0.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: greenyellow;
+    border-radius: 30px;
+}
+#cancelar{
+    background-color: red;
+    border-radius: 30px;
+}
+#mapa{
+    display:block;
+    top:0;
+    float:right;
+    margin-top:0;
 }
